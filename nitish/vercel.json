@@ -1,11 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "installCommand": "npm ci --include=dev",
-  "outputDirectory": "dist",
-  "framework": "vite",
-  "functions": {
-    "src/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
+  "installCommand":"npm install --legacy-peer-deps"
 }
