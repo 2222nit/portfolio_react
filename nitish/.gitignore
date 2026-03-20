@@ -1,2 +1,7 @@
 .vercel
 .env*.local
+
+
+.vite
+dist
+node_modules/.vite
