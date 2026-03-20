@@ -1,7 +1,11 @@
-@import "tailwindcss";
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-body{
-  font-family: "Playfair Display", serif;
+/* TailwindCSS v4 - FIRST */
+@import "tailwindcss";
+
+/* Custom fonts for Tailwind v4 */
+@theme {
+  --font-playfair: "Playfair Display", serif;
+  --font-merriweather: "Merriweather", serif;
+  --font-noto-serif: "Noto Serif", serif;
 }
