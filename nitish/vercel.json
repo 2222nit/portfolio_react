@@ -1,5 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "framework": "vite"
+  "installCommand": "npm ci --include=dev",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "functions": {
+    "src/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
